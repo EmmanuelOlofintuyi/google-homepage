@@ -1,8 +1,47 @@
 
-
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .logo-allignment{
     position: absolute;
     top: 50%;
-    left: auto;
+    left: 50%;
     transform: translate(-50%, -50%)
 }
+.box{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+
+    top: 60%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray
+}
+ 
+#search-bar{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#icon{
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    transform: translate(-50%, -50%)
+}
+
+#mic{
+    position: absolute;
+    top: 60%;
+    left: 56%;
+    transform: translate(-50%, -50%)
+}
+
+
