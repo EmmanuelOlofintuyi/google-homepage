@@ -1,0 +1,8 @@
+
+
+.logo-allignment{
+    position: absolute;
+    top: 50%;
+    left: auto;
+    transform: translate(-50%, -50%)
+}
