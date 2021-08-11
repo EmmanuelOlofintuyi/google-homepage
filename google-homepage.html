@@ -7,14 +7,32 @@
       rel="stylesheet">
     </head>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" class="logo-allignment">
-        <div class="box">
-        <input type="text" placeholder="" id=search-bar>
-        <span class="material-icons-outlined" id=icon>
-            search
-            </span>
-            <span class="material-icons-outlined" id=mic>
-                mic
-                </span>
+        <nav class="nav"> 
+            <a class="nav-link" href="#">Gmail</a>
+            <a class="nav-link" href="#">Images</a>
+            <a class="nav-link-round" href="#">
+                <button class="button-apps"></button>
+            </a>
+            <a href="https://github.com/EmmanuelOlofintuyi" class="nav-link-round" target="_blank">
+                <img class="user-avatar" src="user-avatar.jpeg">
+            </a>
+        </nav>
+        <main class="main">
+        <img class="logo-allignment" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" >
+        <div class="searchbar">
+        <img class="search-icon" src="google-search.png" alt>
+        <input class="search-input" type="text" >
+        <button>
+            <img class="mic" src="google-microphone.png" alt>
+        </button>
         </div>
+        <div class="search-buttons">
+            <a href="#">
+                <button class="button-search">Google search</button>
+            </a>
+            <a href="#">
+                <button class="button-search">I'm Feeling Lucky</button>
+            </a>
+        </div>
+    </main>
     </body>
